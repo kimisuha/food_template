@@ -1,0 +1,108 @@
+.procd .title-brekc {
+  margin-bottom: 3rem;
+}
+.procd .title-brekc .title h1 {
+  text-transform: uppercase;
+}
+.procd .title-brekc .title p {
+  text-transform: capitalize;
+}
+.procd .title-brekc .brekc ol li a {
+  text-decoration: none;
+  color: #90C322;
+}
+.procd .prodt-list h1 {
+  text-transform: uppercase;
+}
+.procd .prodt-list .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.procd .prodt-list .list .card {
+  max-width: 15rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.procd .prodt-list .list .card h3 {
+  text-transform: capitalize;
+  font-size: large;
+}
+.procd .prodt-list .list .card p {
+  font-size: large;
+}
+.procd .prodt-list .list .card a {
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  width: 100%;
+  border: 1px solid black;
+}
+.procd .prodt-list .list .card:hover img {
+  border: 1px solid #90C322;
+  opacity: 0.7;
+}
+.procd .prodt-list .list .card:hover h3 {
+  color: #90C322;
+}
+.procd .prodt-list .list .card:hover a {
+  background-color: #90C322;
+  color: white;
+}
+.procd .prodt-list .pagination {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+.procd .prodt-list .pagination a:not(.active) {
+  color: black;
+}
+.procd .prodt-list .pagination .active {
+  background-color: #90C322;
+  color: white;
+}
+.procd .cate-smt h3 {
+  text-transform: capitalize;
+}
+.procd .cate-smt .cate {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.procd .cate-smt .cate .active {
+  background-color: #90C322;
+}
+.procd .cate-smt .cate li:hover:not(.active) {
+  background-color: #90C322;
+  color: white;
+}
+.procd .cate-smt img {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.procd .cate-smt ul li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.procd .cate-smt ul li h3 {
+  text-transform: capitalize;
+  font-size: medium;
+}
+.procd .cate-smt .smt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  float: left;
+}
+.procd .cate-smt .smt a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px transparent #90C322;
+  background-color: #90C322;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin: 0.3rem;
+}/*# sourceMappingURL=product.css.map */

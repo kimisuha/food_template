@@ -1,0 +1,122 @@
+.blog ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+.blog ul.timeline:before {
+  content: " ";
+  background: #90C322;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+.blog ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.blog ul.timeline > li:before {
+  content: " ";
+  background: #90C322;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #90C322;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+.blog h3,
+.blog h1 {
+  text-transform: uppercase;
+  color: #90C322;
+}
+.blog .card {
+  margin: 1rem 0px;
+}
+.blog .card .card-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-left: 0.2rem solid #90C322;
+  padding: 0.5rem;
+  background-color: #EEEEEE;
+}
+.blog .card .card-info p {
+  font-size: larger;
+}
+.blog .timeline li a {
+  border: 1px solid black;
+  float: right;
+  text-transform: capitalize;
+}
+.blog .timeline li a:hover {
+  -webkit-animation: popdowHoverButton 1s;
+          animation: popdowHoverButton 1s;
+}
+
+.breadcrumb li a {
+  font-size: larger;
+  text-decoration: none;
+  color: #90C322;
+}
+.breadcrumb li .active {
+  color: #EEEEEE;
+}
+
+.cate-smt h3 {
+  text-transform: capitalize;
+}
+.cate-smt .cate {
+  text-transform: capitalize;
+  margin: 1rem 0px;
+}
+.cate-smt .cate li:hover {
+  background-color: #90C322;
+  color: white;
+  cursor: pointer;
+}
+.cate-smt img {
+  margin: 1rem 0px;
+}
+.cate-smt .lt-food {
+  margin: 1rem 0px;
+}
+.cate-smt .lt-food li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.cate-smt .smt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.cate-smt .smt a {
+  font-size: larger;
+  text-decoration: none;
+  background-color: #90C322;
+  border: 1px solid transparent;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes popdowHoverButton {
+  to {
+    color: white;
+    background-color: #90C322;
+  }
+}
+
+@keyframes popdowHoverButton {
+  to {
+    color: white;
+    background-color: #90C322;
+  }
+}/*# sourceMappingURL=blog.css.map */

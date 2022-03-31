@@ -1,0 +1,62 @@
+.product-detail .card {
+  max-width: 25rem;
+  max-height: 60%;
+  padding: 0.5rem;
+}
+.product-detail .card h3 {
+  text-transform: capitalize;
+}
+.product-detail .card h4 {
+  color: #90C322;
+}
+.product-detail .card a {
+  text-decoration: none;
+  background-color: #90C322;
+  color: white;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+}
+.product-detail nav ol {
+  margin-bottom: 5rem;
+}
+.product-detail nav a {
+  text-decoration: none;
+  color: #90C322;
+}
+.product-detail .lt-foot h3 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.product-detail .lt-foot ul li {
+  list-style: none;
+}
+.product-detail .lt-foot ul li .lt-foot-itm {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+.product-detail .lt-foot ul li .lt-foot-itm a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+.product-detail .lt-foot ul li .lt-foot-itm a:hover {
+  color: #90C322;
+}
+.product-detail .lt-foot ul li .lt-foot-itm img {
+  margin-right: 1rem;
+}
+
+body::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  color: #90C322;
+}
+
+body::-webkit-scrollbar-thumb {
+  color: #90C322;
+  background-color: #90C322;
+}

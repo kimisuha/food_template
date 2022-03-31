@@ -1,0 +1,187 @@
+.row {
+  margin: auto;
+}
+
+.first-line {
+  background-color: #90C322;
+  color: white;
+  max-height: 151px;
+  font-family: Arial;
+}
+.first-line .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first-line .container .nav-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 15vh;
+  text-transform: capitalize;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+.first-line .container .nav-1 p:hover {
+  color: black;
+  cursor: pointer;
+}
+.first-line .container input {
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+}
+
+.logo img {
+  max-width: 287px;
+  margin: 3rem auto 3rem auto;
+}
+
+.navbr {
+  background-color: #F8F8F8;
+}
+.navbr ul li {
+  padding: 0.5rem;
+}
+.navbr ul li a {
+  text-transform: uppercase;
+}
+.navbr ul li:hover {
+  cursor: pointer;
+  border-top: 1px solid #90C322;
+  border-bottom: 2px solid #90C322;
+}
+.navbr ul ul li:hover {
+  background-color: #90C322;
+}
+.navbr ul ul li:hover a {
+  background-color: #90C322;
+  color: white;
+}
+
+.carou {
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.service .service-item {
+  background-color: #90C322;
+  color: white;
+  max-width: 40%;
+  font-family: Arial;
+}
+.service .service-item h1 {
+  text-transform: capitalize;
+}
+
+.categories .title {
+  width: 32rem;
+  text-align: center;
+  font-size: medium;
+  border: 1px solid transparent;
+  margin: auto;
+  text-transform: uppercase;
+}
+.categories .food-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem 0px;
+}
+.categories .food-categories .foot-item {
+  max-width: 25rem;
+}
+.categories .food-categories .foot-item h2 {
+  text-transform: capitalize;
+}
+.categories .food-categories .foot-item a {
+  text-transform: capitalize;
+}
+.categories .food-categories .foot-item a:hover {
+  background-color: #90C322;
+  color: white;
+}
+
+.new-product h1 {
+  text-transform: capitalize;
+}
+.new-product .product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.new-product .product .product-item {
+  max-width: 17rem;
+  margin: 0.5rem;
+  text-transform: capitalize;
+}
+.new-product .product .product-item p {
+  color: #90C322;
+}
+.new-product .product a {
+  border: 1px solid black;
+  text-transform: capitalize;
+  width: 100%;
+}
+.new-product .product a:hover {
+  background-color: #90C322;
+  color: white;
+}
+
+.our-parner img {
+  max-width: 14rem;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer .row {
+  padding: 2rem;
+}
+.footer h3 {
+  text-transform: uppercase;
+}
+.footer .foot-itm1 img {
+  filter: brightness(200%);
+  cursor: pointer;
+}
+.footer .foot-itm1 li {
+  list-style: none;
+  margin: 0.5rem;
+}
+.footer .last-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #90C322;
+  margin-top: 4rem;
+}
+.footer .last-line .pay img {
+  margin: 0.5rem;
+}
+.footer .last-line .pay img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.footer .last-line p {
+  text-align: right;
+}
+
+body::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  color: #90C322;
+}
+
+body::-webkit-scrollbar-thumb {
+  color: #90C322;
+  background-color: #90C322;
+}/*# sourceMappingURL=index.css.map */

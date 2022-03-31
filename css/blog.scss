@@ -1,0 +1,154 @@
+.blog {
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+
+    ul.timeline:before {
+        content: ' ';
+        background: #90C322;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 100%;
+        z-index: 400;
+    }
+
+    ul.timeline>li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    ul.timeline>li:before {
+        content: ' ';
+        background: #90C322;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid #90C322;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+
+    h3,
+    h1 {
+        text-transform: uppercase;
+        color: #90C322;
+    }
+
+    .card {
+        margin: 1rem 0px;
+
+        .card-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            border-left: 0.2rem solid #90C322;
+
+            padding: 0.5rem;
+
+            background-color: #EEEEEE;
+
+            p {
+                font-size: larger;
+            }
+        }
+    }
+
+    .timeline {
+        li {
+            a {
+                border: 1px solid black;
+                float: right;
+                text-transform: capitalize;
+            }
+
+            a:hover {
+                //background-color: #90C322;
+                animation: popdowHoverButton 1s;
+                //transition: animation 0.4s ;
+                //transition: animation cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+        }
+    }
+
+}
+
+.breadcrumb {
+    li {
+        a {
+            font-size: larger;
+            text-decoration: none;
+            color: #90C322;
+        }
+
+        .active {
+            color: #EEEEEE;
+        }
+    }
+}
+
+.cate-smt {
+    h3 {
+        text-transform: capitalize;
+    }
+
+    .cate {
+        text-transform: capitalize;
+        margin: 1rem 0px;
+
+        li:hover {
+            background-color: #90C322;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    img {
+        margin: 1rem 0px;
+    }
+
+    .lt-food {
+        margin: 1rem 0px;
+
+        li {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            margin-bottom: 1rem;
+
+        }
+    }
+
+    .smt {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+
+        a {
+            font-size: larger;
+            text-decoration: none;
+            background-color: #90C322;
+            border: 1px solid transparent;
+
+            padding: 0.5rem;
+            margin: 0.2rem;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+@keyframes popdowHoverButton {
+    to {
+        color: white;
+        background-color: #90C322;
+    }
+}

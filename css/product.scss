@@ -1,0 +1,152 @@
+.procd {
+    .title-brekc {
+        margin-bottom: 3rem;
+
+        .title {
+            h1 {
+                text-transform: uppercase;
+            }
+
+            p {
+                text-transform: capitalize;
+            }
+        }
+
+        .brekc {
+            ol {
+                li {
+                    a {
+                        text-decoration: none;
+                        color: #90C322;
+                    }
+                }
+            }
+        }
+    }
+
+    .prodt-list {
+        h1 {
+            text-transform: uppercase;
+        }
+
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .card {
+                max-width: 15rem;
+                margin-bottom: 2rem;
+                cursor: pointer;
+
+                h3 {
+                    text-transform: capitalize;
+                    font-size: large;
+                }
+
+                p {
+                    font-size: large;
+                }
+
+                a {
+                    border: 1px solid transparent;
+                    text-transform: capitalize;
+                    width: 100%;
+                    border: 1px solid black;
+                }
+            }
+
+            .card:hover {
+                img {
+                    border: 1px solid #90C322;
+                    opacity: 0.7;
+                }
+
+                h3 {
+                    color: #90C322;
+                }
+
+                a {
+                    background-color: #90C322;
+                    color: white;
+                }
+            }
+        }
+
+        .pagination {
+            margin-top: 3rem;
+            margin-bottom: 7rem;
+
+            a:not(.active) {
+                color: black;
+            }
+
+            .active {
+                background-color: #90C322;
+                color: white;
+            }
+
+        }
+    }
+
+    .cate-smt {
+        h3 {
+            text-transform: capitalize;
+        }
+
+        .cate {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+
+            .active {
+                background-color: #90C322;
+            }
+
+            li:hover:not(.active) {
+                background-color: #90C322;
+                color: white;
+            }
+        }
+
+        img {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        ul {
+
+            li {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+
+                h3 {
+                    text-transform: capitalize;
+                    font-size: medium;
+                }
+            }
+        }
+
+        .smt {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            float: left;
+            a {
+                width: fit-content;
+                border: 1px transparent #90C322;
+                background-color: #90C322;
+                color: white;
+                text-decoration: none;
+                font-size: large;
+                text-transform: uppercase;
+
+                padding: 0.5rem;
+
+                margin: 0.3rem;
+
+            }
+        }
+    }
+}
